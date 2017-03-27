@@ -42,9 +42,9 @@ h1{
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-   
+   opacity: 10%;
     border-radius: 5px;
-   background-color: #ecf0f1;
+   background-color: rgba(236, 240, 241,0.75)
     
 }
 #random-index {
@@ -70,6 +70,7 @@ h1{
 img[Attributes Style] {
     width: 120px;
     height: 120px;
+
 }
 .center-field {
     margin: 0 auto;
@@ -137,4 +138,27 @@ a { font-family: roboto;
 #random-index a {
     text-transform: uppercase;
     padding: 5px;
+}
+.down{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+.iconani{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+}
+.iconani-3{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+.iconani-1{
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
+.iconani-2{
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+}
+a:hover{
+    color: #3a530a;
 }
