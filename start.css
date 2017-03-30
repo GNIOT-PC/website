@@ -36,7 +36,7 @@ h1{
     align-content: center;
     position: absolute;
     left: 10%;
-    top: 20%;
+    top: 11%;
     width: 80%;
     padding-top: 1%;
     padding-bottom: 2%;
@@ -60,6 +60,8 @@ h1{
 }
 
 .logo{
+   
+
     cursor: pointer;
     margin-top: -70px;
     border-radius: 50%;
@@ -111,12 +113,33 @@ ul, menu, dir {
     width: auto; display: flex; flex-wrap: wrap; align-items: center; text-align:center; }
 
 .col-2{
+    color: gold;
     width: 17%;
     align-content: center;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
 }
+.background down animate bounceInDown{
+    height: 300px;
+}
+#line{
+    background-color: aquamarine;
+}
 
+.index-nav-link{
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 20px 20px 30px red;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px gold;}
+}
 .tab{
     text-align: center;
    
@@ -128,37 +151,41 @@ li {
     text-align: -webkit-match-parent;
 }
 
-a { font-family: roboto;
-    text-decoration: none;
-    color: #3a539b;
+a { font-family: cursive;
+    text-decoration: bold;
+    text-shadow: 
+    font-color: yellow;
     align-content: center;
     margin-left: 1%;
     align-items: center;
 }
 #random-index a {
     text-transform: uppercase;
-    padding: 5px;
+    padding:0px;
 }
 .down{
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
 }
 .iconani{
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-}
-.iconani-3{
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
 }
-.iconani-1{
-    -webkit-animation-duration: 5s;
+.iconani-3{
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
 }
-.iconani-2{
+.iconani-1{
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
 }
+.iconani-2{
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
 a:hover{
-    color: #3a530a;
+    color: gold;
+}
+.line{
+    color:mediumvioletred;
 }
